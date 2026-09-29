@@ -15,6 +15,7 @@ int main() {
 
     int lMax=0; int rMax=0;
 
+    // two pointers
     while (l < r) {
         if (a[l] <= a[r]) {
             if (lMax < a[l]) {
